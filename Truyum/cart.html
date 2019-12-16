@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Edit Menu Item</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="addColumn()"> 
+
+    <div class="topnav">
+        <div class="home">truYum</div>
+        <img src="truyum-logo-light.png">
+        <a href="menu-item-list-customer.html">Menu</a>
+        <a href="cart.html">Cart</a>
+    </div>
+    <h1>Cart</h1>
+    <span id="span" class="para"></span>
+    <table id="table_id">
+        <tr>
+            <th>Name</th>
+            <th>Free Delivery</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Sandwich</td>
+            <td>Yes</td>
+            <td>99.00</td>
+            <td><a onclick="deleteRow(this)">Delete</a></td>
+        </tr>
+        <tr>
+            <td>Burger</td>
+            <td>No</td>
+            <td>129.00</td>
+            <td><a onclick="deleteRow(this)">Delete</a></td>
+        </tr>
+
+        <tr>
+            <td>Pizza</td>
+            <td>No</td>
+            <td>149.00</td>
+            <td><a onclick="deleteRow(this)">Delete</a></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><h4>Total</h4></td>
+            <td id="val"></td>
+        </tr>
+
+    </table>
+
+    <div class="footer">
+        <h3>Copyright &copy 2019</h3>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
